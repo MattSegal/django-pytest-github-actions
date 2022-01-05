@@ -1,10 +1,11 @@
-# App Template
+# Minimal Django + Pytest + GitHub Actions example
 
-A template for small Django tutorial apps
+This minimal example shows you how you can runs pytest on your Django app on every commit using GitHub Actions.
+This is an example project for [this blog post](https://mattsegal.dev/pytest-on-github-actions.html).
 
 ## Installation
 
-Follow these instructions to try this demo out locally.
+Follow these instructions to setup this demo out locally.
 This requires Python 3 and the pip package manager.
 
 ```bash
