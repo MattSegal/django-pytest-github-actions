@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "demo.settings"
+filterwarnings = [
+    "ignore::UserWarning",
+    "ignore::django.utils.deprecation.RemovedInDjango50Warning",
+]

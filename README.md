@@ -2,7 +2,7 @@
 
 A template for small Django tutorial apps
 
-## Setup
+## Installation
 
 Follow these instructions to try this demo out locally.
 This requires Python 3 and the pip package manager.
@@ -19,6 +19,27 @@ python -m venv env
 
 # Install requirements
 pip install -r requirements.txt
+```
+
+## Running tests
+
+```bash
+# Activate virtual environment (Bash for Linux or Mac)
+. env/bin/activate
+
+# Go into the Django application folder
+cd app
+
+# Run pytest
+pytest -vv
+```
+
+## Running the server
+
+```bash
+# Activate virtual environment (Bash for Linux or Mac)
+. env/bin/activate
+
 
 # Go into the Django application folder
 cd app
